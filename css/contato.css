@@ -1,0 +1,118 @@
+/* Define as fontes para todo o documento */
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  /* Adiciona o gradiente de fundo */
+  background: linear-gradient(90deg, #000000, #434343);
+
+
+}
+
+/* Define o estilo do cabeçalho */
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+}
+
+/* Define o estilo do logotipo */
+.logo img {
+  height: 60px;
+}
+
+/* Define o estilo da navegação */
+nav ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  margin-left: 20px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+/* Define o estilo do título principal */
+h1 {
+  font-size: 32px;
+  margin: 40px 0 20px;
+}
+
+/* Define o estilo do formulário de contato */
+form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+label {
+  font-weight: bold;
+}
+
+input,
+textarea {
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  border: none;
+}
+
+button[type="submit"] {
+  padding: 10px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: #666;
+}
+
+/* Define o estilo do rodapé */
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.menu {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu li {
+  margin-right: 20px;
+}
+
+.menu li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.menu li a:hover {
+  text-decoration: underline;
+}
+
+/* Define o estilo do logotipo no rodapé */
+footer .logo img {
+  height: 40px;
+}
